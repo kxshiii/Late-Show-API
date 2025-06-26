@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "d2f5a5a0-7f1c-4f5e-8f1a-8c95b8f4f3f3",
+		"name": "challenge-4-latestshow",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get latest show",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.tvmaze.com/schedule?country=US&date=latest",
+					"protocol": "https",
+					"host": [
+						"api",
+						"tvmaze",
+						"com"
+					],
+					"path": [
+						"schedule",
+						"?country=US&date=latest"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
